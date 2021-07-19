@@ -1,0 +1,59 @@
+h1{
+    color: #47d3bc;
+    margin: 38px;
+}
+*{
+background-color: #5ca1cf;
+color: #05058f;
+border: solid;
+}    
+
+.header{
+    background-color: #39bbcc; 
+    display:flex;
+    justify-content: space-between;
+    margin: 30px;
+
+}
+.header a{
+    background-color: rgb(66, 144, 168);
+    margin: 30px;
+}
+.item{
+    background-color: #88cfff;
+    margin: 20px;
+    
+}
+.item h3{
+    opacity: 0;
+
+}
+.item:hover h3 {
+opacity: 1;
+}
+
+.footer{
+    background-color: #7ebbca;
+    margin: 14px;
+}
+a:link{
+color:whitesmoke
+}
+a:visited{
+    color:whitesmoke
+}
+.idk {
+    position: relative;
+    margin:30px;
+}
+.idk p{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+}
+
+
+
+
+
